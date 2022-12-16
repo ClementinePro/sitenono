@@ -14,7 +14,7 @@ h2, h3, h4, h5, h6{
 	
 }
 
-span{
+strong{
     color: black;
 }
 
@@ -31,7 +31,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     font-size: 1.5rem;
-    color: rgb(139, 139, 139);
+    color: rgb(77, 76, 76);
 }
 
 button{

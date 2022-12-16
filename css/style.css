@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	
+}
+
+.logo{
+width: 140px;
+padding-bottom: 2rem;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	
+
+}
+
+header .container,
+header ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0;
+}
+
+header ul {
+	gap: 1rem;
+	font-size: 1.3rem;
+}
+
+#nom {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 3rem;
+	padding: 1rem;
+	margin-right: 0.5rem;
+	color: black;
+
+}
+
+.intro{
+	width:100%;
+
+
+	
+}
+
+video{
+	
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.min-h-screen {
+	/* hauteur minimum : hauteur de l'écran */
+	min-height: 100vh;
+	width: 100%;
+}
+
+.slider {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.slider__slide {
+	width: 100%;
+
+}
+
+.slider__arrow {
+	font-size: 3rem;
+	padding: 1rem;
+	cursor: default;
+}
+
+.slide__img {
+	aspect-ratio: 5 / 4;
+	object-fit: contain;
+	display: block;
+	width: 100%;
+
+
+}
+
+.slider__presta{
+	width: 700px;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photoactu{
+    
+	margin-bottom: 2rem;
+	margin-left: auto;
+	width: 100%;
+	
+	
+}
+
+.nouvelle-structure{
+
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap:2rem;
+	
+
+
+}
+
+
+.paranouveau {
+
+	justify-content: center;
+	padding-left: 0.5rem;
+	
+
+}
+
+
+
+.tarif{
+	
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) ;
+	gap:4rem;
+}
+
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2rem;
+
+}
+
+footer section {
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.footer-wrapper {
+	margin-top : 2rem;
+	width: 100%;
+	background-color: rgb(127, 203, 210);
+
+}
+
+#liens {
+
+	margin-top: 1rem;
+
+}
+
+.coordo{
+	max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+
+}
+.contact {
+	
+	display: flex;
+	flex-direction: row;
+	margin-bottom: auto;
+	
+}
+
+.carte{
+	margin-right: auto;
+	margin-bottom: auto;
+}

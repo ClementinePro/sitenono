@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>écurie du moulin aux près</title>
+
+    <script src="/js/menu.js" defer></script>
     <!-- <link rel="stylesheet" href="style site.css"> -->
     <!-- TODO récupéer un lien qui fonctionne -->
     <link rel="stylesheet" href="/css/bootstrap-grid.css" />
@@ -18,14 +21,16 @@
     <div class="min-h-screen">
         <header>
             <div class="container">
-                <img class="logo" src="/Photos/proto.png">
-                <span id="nom">Écurie du moulin aux près</span>
-
-                <ul class="menu_ul">
-                    <li><a id="Accueil" href="/index.html"> Accueil </a></li>
-                    <li><a id="Q" href="/qui-sommes-nous.html"> Qui sommes-nous </a></li>
-                    <li><a id="Prest" href="/prestations.html"> Prestations </a></li>
-                    <li><a id="Contact" href="/contact.html"> Contact </a></li>
+                <div class="header_title-group">
+                    <img class="header_logo" src="/Photos/proto.png">
+                    <span class="header_title">Écurie du moulin aux près</span>
+                </div>
+                <button id="menu_toggle">Menu</button>
+                <ul id="menu_links" class="hidden_sm">
+                    <li><a id="Accueil" href="/index.html">Accueil</a></li>
+                    <li><a id="Q" href="/qui-sommes-nous.html">Qui sommes-nous</a></li>
+                    <li><a id="Prest" href="/prestations.html">Prestations</a></li>
+                    <li><a id="Contact" href="/contact.html">Contact</a></li>
                 </ul>
             </div>
         </header>
